@@ -66,7 +66,7 @@ int main() {
 	printf( "\nInserisci il numero di righe: " );
 	scanf( "%d", &N );
 	
-	printf( "\nInserisci il numero di righe: " );
+	printf( "\nInserisci il numero di colonne: " );
 	scanf( "%d", &M );
 
     // Off viene utilizzato nel caso in cui 
