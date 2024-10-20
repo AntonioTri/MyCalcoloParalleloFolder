@@ -80,7 +80,7 @@ void printVector(int *vector, char name[]) {
     printf("\n");
 }
 
-// Funzione per liberare la memoria una volta concluso il programma
+// Funzione per liberare la memoria di una matrice e di un vettore una volta concluso il programma
 void freeMemories(int **matrix, int *diagonal) {
     for (int i = 0; i < N; i++) {
         free(matrix[i]);
